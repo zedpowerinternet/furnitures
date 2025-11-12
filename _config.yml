@@ -1,0 +1,12 @@
+title: "Furnitures"
+description: "Minimal static site starter for the zedpowerinternet/furnitures repository."
+url: "https://zedpowerinternet.github.io/furnitures"
+baseurl: "/furnitures"
+# Keep theme simple; not required for raw HTML site, but harmless for GitHub Pages
+theme: "minima"
+markdown: kramdown
+paginate: 10
+exclude:
+  - "node_modules"
+  - "README.md"
+plugins: []
