@@ -1,16 +1,35 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Furnitures — Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Furnitures — Quality furniture for every room</title>
+  <meta name="description" content="Handpicked modern and classic furniture. Browse chairs, tables, sofas and more from ZedPower Internet's Furnitures collection.">
+  <link rel="canonical" href="https://zedpowerinternet.github.io/furnitures/">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Social -->
+  <meta property="og:site_name" content="Furnitures">
+  <meta property="og:title" content="Furnitures — Quality furniture for every room">
+  <meta property="og:description" content="Handpicked modern and classic furniture. Browse chairs, tables, sofas and more.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://zedpowerinternet.github.io/furnitures/">
+  <meta property="og:image" content="https://zedpowerinternet.github.io/furnitures/assets/og-image.jpg">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Furnitures — Quality furniture for every room">
+  <meta name="twitter:description" content="Handpicked modern and classic furniture. Browse chairs, tables, sofas and more.">
+  <meta name="twitter:image" content="https://zedpowerinternet.github.io/furnitures/assets/og-image.jpg">
+
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
   <header class="site-header">
     <div class="container">
       <h1 class="logo">Furnitures</h1>
-      <nav class="nav">
+      <nav class="nav" aria-label="Main navigation">
         <a href="#products">Products</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
@@ -18,50 +37,50 @@
     </div>
   </header>
 
-  <main>
-    <section class="hero">
+  <main id="main-content">
+    <section class="hero" aria-labelledby="hero-heading">
       <div class="container">
-        <h2>Quality furniture for every room</h2>
+        <h2 id="hero-heading">Quality furniture for every room</h2>
         <p>Handpicked designs, built to last.</p>
       </div>
     </section>
 
-    <section id="products" class="container products">
-      <h3>Featured</h3>
-      <div class="grid">
-        <article class="card">
-          <img src="https://via.placeholder.com/320x200?text=Chair" alt="Chair">
+    <section id="products" class="container products" aria-labelledby="featured-heading">
+      <h3 id="featured-heading">Featured</h3>
+      <div class="grid" role="list">
+        <article class="card" role="listitem">
+          <img src="https://via.placeholder.com/320x200?text=Chair" alt="Comfort Chair - cushioned wooden chair" width="320" height="200">
           <h4>Comfort Chair</h4>
           <p class="price">$129</p>
         </article>
-        <article class="card">
-          <img src="https://via.placeholder.com/320x200?text=Table" alt="Table">
+        <article class="card" role="listitem">
+          <img src="https://via.placeholder.com/320x200?text=Table" alt="Dining Table - solid wood table for six" width="320" height="200">
           <h4>Dining Table</h4>
           <p class="price">$349</p>
         </article>
-        <article class="card">
-          <img src="https://via.placeholder.com/320x200?text=Sofa" alt="Sofa">
+        <article class="card" role="listitem">
+          <img src="https://via.placeholder.com/320x200?text=Sofa" alt="Modern Sofa - three-seat fabric sofa" width="320" height="200">
           <h4>Modern Sofa</h4>
           <p class="price">$799</p>
         </article>
       </div>
     </section>
 
-    <section id="about" class="container about">
-      <h3>About</h3>
+    <section id="about" class="container about" aria-labelledby="about-heading">
+      <h3 id="about-heading">About</h3>
       <p>We design and craft quality furniture with sustainable materials.</p>
     </section>
 
-    <section id="contact" class="container contact">
-      <h3>Contact</h3>
-      <p>Email: info@yourdomain.com</p>
+    <section id="contact" class="container contact" aria-labelledby="contact-heading">
+      <h3 id="contact-heading">Contact</h3>
+      <p>Email: <a href="mailto:info@yourdomain.com">info@yourdomain.com</a></p>
     </section>
   </main>
 
-  <footer class="site-footer">
+  <footer class="site-footer" role="contentinfo">
     <div class="container">
       <small>© 2025 Furnitures</small>
     </div>
   </footer>
 </body>
-  </html>
+</html>
